@@ -19,6 +19,9 @@
     Share Button
   </button>
 
+  <!-- app-product-alerts is added as a child of product-list 
+    bind app-product-alerts to the onNotify of the product-list 
+  -->
   <app-product-alerts
     [product]="product" 
     (notify)="onNotify()">
